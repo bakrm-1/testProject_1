@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color:black;
+color: white;  
+
+
+}
+}
+.x div{
+  
+    background-color: blue;
+  padding: 30px;
+    margin: 60px;
+  
+    display: inline-block;
+
+
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    body{
+      display: block;
+        width: 100%;
+    }
+}
+
+
+#modal{
+    display: none;
+}
+#modal:target{
+    display: block;
+}
+[role="status"]{
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid green;
+background-color: rgb(112, 255, 112);
+color: darkgreen;
+}
+a{
+    color: rgb(0, 255, 21);
+    text-decoration:none;
+border: 10px;
+background-color: blue;
+
+
+
+}
+
+
+
+
